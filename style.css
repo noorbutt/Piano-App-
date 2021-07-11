@@ -1,0 +1,120 @@
+html{
+     height: 100%; 
+}
+
+
+
+body{
+     margin: 0;
+     padding: 0;
+     height: 100%;  
+     display: flex;  
+     justify-content: center;
+     align-items: center;
+     /* background-image: linear-gradient(#FFCDD2,#EF9A9A);  */
+     /* background-color: black;   */
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+    background-image: url( 'https://deftear.com/wp-content/uploads/2017/09/Background-Gif.gif   ');
+}
+
+
+
+
+
+.piano{
+     display: flex; 
+     position: relative;
+     margin-left: 4px;
+}
+
+
+
+
+.white-key{
+    width: 48px;
+    height: 130px;
+    background-color: aliceblue;
+    border: 4px solid black;
+    border-radius: 0  0 6px 6px ;
+    margin-left: -4px;
+    outline: none; 
+    cursor: pointer;
+}
+
+
+
+.white-key.active{
+background-color: floralwhite;
+}
+
+
+
+.black-key{
+    position: absolute;
+    width: 24px;
+    height: 88px;
+    background-image:linear-gradient(#212121,#000000) ;
+    border: 3px solid black;
+    border-radius: 0 0  2px 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.balck-key.active{
+    background-image: linear-gradient( #212121,#000000);
+    }
+    
+
+
+
+.Db4-key{
+    left: 30px;
+}
+
+
+.Eb4-key{
+    left: 75px;
+}
+
+
+
+.Gb4-key{
+    left: 159px;
+}
+
+
+.Ab4-key{
+    left: 205px;
+}
+
+
+.Bb4-key{
+    left:249px ;
+}
+
+
+
+.Db5-key{
+    left: 381px;
+}
+
+.Eb5-key{
+  left: 338px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
